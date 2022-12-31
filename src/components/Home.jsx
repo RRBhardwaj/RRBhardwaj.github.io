@@ -1,20 +1,31 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import HeroImage  from "../assests/heroImage.png";
 
 const Home = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f]'>
- 
+    <div name="home" className='w-full h-screen bg-[#0a192f]'>
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-green-400 text-xl'>Hi, my name is</p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-[#bceaf4]'>Rishi Raj Bhardwaj</h1>
-            <h2 className='text-3xl sm:text-5xl font-bold text-[#a5b3df]'>I am a Full Stack Web Developer.</h2>
-            <p className='text-[#a5b3df] py-4 max-w'>I am a full-stack web developer specializing in building Frontend of Websites and Web Applications that leads to the success of the overall product </p>
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+          <div className='flex flex-col justify-center h-full'>
+            <p className='text-2xl text-green-300'>Hi, my name is</p>
+            <h2 className='text-4xl sm:text-5xl font-bold text-white'>Rishi Raj Bhardwaj</h2>
+            <h2 className='text-4xl sm:text-5xl font-bold text-gray-300'>I am a Full Stack Web Developer</h2>
+            <p className=' text-gray-300 py-4 max-w-md'>I am a full-stack web developer specializing in building Frontend of Websites and Web Applications that leads to the success of the overall product </p>
+            <div>
+              <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer'>
+                 Resume 
+                 <span className='group-hover:rotate-90 duration-300'>
+                  <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <img src={HeroImage} alt="MyImage" className='rounded-3xl mx-auto w-1/3 md:w-full'/>
+          </div>
         </div>
-        <div>
-            <button> View Work <HiArrowNarrowRight /></button>
-        </div>
+        
     </div>
   )
 }
