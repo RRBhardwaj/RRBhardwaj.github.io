@@ -4,7 +4,7 @@ import HeroImage  from "../assests/heroImage.png";
 
 const Home = () => {
   return (
-    <div name="home" className='w-full h-screen bg-[#0a192f]'>
+    <div name="home" className='w-full h-screen bg-[#0a192f] pt-8'>
         {/* container */}
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
           <div className='flex flex-col justify-center h-full'>

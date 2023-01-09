@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {FaBars, FaTimes} from "react-icons/fa";
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -42,6 +43,7 @@ const Navbar = () => {
                     <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>{link}</li>
                 ))
             }
+            <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'><BsFillMoonStarsFill/></li>
         </ul>
         
         {/* hamburger */}
