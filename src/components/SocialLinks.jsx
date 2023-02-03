@@ -4,6 +4,13 @@ import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 
 const SocialLinks = () => {
+    const handleClick = () => {
+        window.open('https://drive.google.com/file/d/1YMvMriZc_m7JEJlgowI7bQgbKZWYEDL7/view?usp=share_link', '_blank');
+        const link = document.createElement('a');
+        link.download = 'Rishi_Bhardwaj_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+    }
   return (
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
@@ -23,7 +30,7 @@ const SocialLinks = () => {
             </ul>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2f3133]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/Rishi_Bhardwaj_Resume.pdf" target="_blank" rel="noreferrer" download={true}>Resume<BsFillPersonLinesFill size={30}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300' href="/Rishi_Bhardwaj_Resume.pdf" target="_blank" rel="noreferrer" download={true} onClick={handleClick}>Resume<BsFillPersonLinesFill size={30}/></a>
                 </li>
             </ul>
         </div>

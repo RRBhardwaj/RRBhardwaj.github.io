@@ -2,7 +2,15 @@ import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import HeroImage  from "../assests/heroImage.png";
 
+
 const Home = () => {
+  const handleClick = () => {
+    window.open('https://drive.google.com/file/d/1YMvMriZc_m7JEJlgowI7bQgbKZWYEDL7/view?usp=share_link', '_blank');
+    const link = document.createElement('a');
+    link.download = 'Rishi_Bhardwaj_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+  }
   return (
     <div name="home" className='w-full h-screen bg-[#0a192f] pt-8'>
         {/* container */}
@@ -13,7 +21,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-300'>I am a Full Stack Web Developer</h2>
             <p className=' text-gray-300 py-4 max-w-md'>I am a full-stack web developer specializing in building Frontend of Websites and Web Applications that leads to the success of the overall product </p>
             <div>
-              <a className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer' href='Rishi_Bhardwaj_Resume.pdf' target="_blank" rel="noreferrer" download={true}>
+              <a className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer' href='Rishi_Bhardwaj_Resume.pdf' target="_blank" download={true} rel="noreferrer" onClick={handleClick}>
                  Resume
                  <span className='group-hover:rotate-90 duration-300'>
                   <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
