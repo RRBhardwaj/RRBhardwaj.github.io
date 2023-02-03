@@ -11,7 +11,7 @@ const About = () => {
                 My name is Rishi Raj Bhardwaj. I am a Front End Web Developer  
             </p>
             <br/>
-            <p className='text-md'>
+            <p className='text-md leading-loose'>
                 I have experience in effective collaboration and a keen interest in solving problems and coming up with effective solutions. With a good understanding of Data Structure and Algorithms, and a stronghold on the MERN stack. I am looking forward to starting my journey with a strong focus on building great products within the role of a Full Stack Web Developer.
             </p>
         </div> 

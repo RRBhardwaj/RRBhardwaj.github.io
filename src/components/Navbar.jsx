@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
-            <h4 className='text-4xl ml-2 font-signature'>RRBhardwaj</h4>
+            <h4 className='text-4xl ml-2 font-signature cursor-none'>RRBhardwaj</h4>
         </div>
 
         {/* menu */}
