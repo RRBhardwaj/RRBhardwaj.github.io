@@ -28,7 +28,7 @@ const SocialLinks = () => {
             </ul>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#53ac99]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="mailto:rishirajbhardwaj20@gmail.com" target="_blank" rel="noreferrer" onClick={handleMail}>Email<HiOutlineMail size={30}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300' href="mailto:rishirajbhardwaj20@gmail.com" target="_blank" rel="noopener noreferrer" onClick={handleMail}>Email<HiOutlineMail size={30}/></a>
                 </li>
             </ul>
             <ul>
