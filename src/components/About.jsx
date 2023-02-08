@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-50vh bg-[#0a192f] text-white pt-14 pb-24'>
+    <div name="about" className='w-full h-max text-white pt-16 pb-24 bg-gradient-to-b from-[#0c1f3c] to-[#0e2445]'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-  center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-2xl font-bold inline border-b-4 border-gray-300 pt-5'>About Me</p>
+                <p className='text-2xl font-bold inline border-b-4 border-gray-400 pt-5'>About Me</p>
             </div>
             <p className='text-md mt-5 text-green-300'>
                 My name is Rishi Raj Bhardwaj. I am a Front End Web Developer  

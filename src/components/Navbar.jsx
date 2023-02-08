@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {FaBars, FaTimes} from "react-icons/fa";
+import {Link} from "react-scroll";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -9,28 +10,27 @@ const Navbar = () => {
     const links = [
         {
             id:1,
-            link:"Home"
+            link:"home"
         },
         {
             id:2,
-            link:"About"
+            link:"about"
         },
         {
             id:3,
-            link:"Skills"
+            link:"skills"
         },
         {
             id:4,
-            link:"Projects"
+            link:"projects"
         },
         {
             id:5,
-            link:"Contact"
+            link:"contact"
         }
-    ]
-    
+    ] 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 py-4 text-gray-300 bg-gradient-to-b from-[#000000] to-[#1c3862]'>
         <div>
             <h4 className='text-4xl ml-2 font-signature cursor-none'>RRBhardwaj</h4>
         </div>
@@ -39,7 +39,9 @@ const Navbar = () => {
         <ul className="hidden md:flex">
             {
                 links.map(({id,link})=>(
-                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>{link}</li>
+                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>
+                        <Link to={link} smooth duration={500}>{link}</Link>
+                    </li>
                 ))
             }
             {/* <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'><BsFillMoonStarsFill/></li> */}
@@ -54,7 +56,9 @@ const Navbar = () => {
         <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
             {
                 links.map(({id,link}) => (
-                    <li key={id} className='"px-4 py-6 text-4xl capitalize cursor-pointer'>{link}</li>
+                    <li key={id} className='"px-4 py-6 text-4xl capitalize cursor-pointer'>
+                        <Link onClick={()=>handleClick()} to={link} smooth duration={500}>{link}</Link>
+                    </li>
                 ))
             }
         </ul>   
