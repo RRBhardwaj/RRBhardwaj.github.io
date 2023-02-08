@@ -30,7 +30,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img src={HeroImage} alt="MyImage" className='rounded-3xl mx-auto w-1/3 md:w-full'/>
+            <img src={HeroImage} alt="MyImage" className='rounded-3xl mx-auto w-3/5 md:w-full sm:my-2'/>
           </div>
         </div>
         
