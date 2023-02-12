@@ -30,7 +30,7 @@ const Navbar = () => {
         }
     ] 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 py-4 text-gray-300 bg-gradient-to-b from-[#000000] to-[#142949]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 py-4 text-gray-300 bg-gradient-to-b from-[#000000] to-[#142949] z-100'>
         <div>
             <h4 className='text-4xl ml-2 font-signature cursor-none'>RRBhardwaj</h4>
         </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
 
         {/* mobile menu */}
-        <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
+        <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#000000] to-[#1b365e] flex flex-col justify-center items-center"}>
             {
                 links.map(({id,link}) => (
                     <li key={id} className='"px-4 py-6 text-4xl capitalize cursor-pointer'>

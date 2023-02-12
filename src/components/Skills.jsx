@@ -8,7 +8,7 @@ import node from "../assests/node.png";
 import reactImage from "../assests/react.png";
 import redux from "../assests/redux.png";
 import github from "../assests/github.png";
-import bootstrap from "../assests/bootstrap.png";
+import bootstrap from "../assests/bootstrap2.png";
 
 const Skills = () => {
     const techs = [

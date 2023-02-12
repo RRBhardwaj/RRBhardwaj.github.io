@@ -12,7 +12,7 @@ const Home = () => {
     link.click();
   }
   return (
-    <div name="home" className='w-full h-150vh md:min-h-fit py-16 bg-gradient-to-b from-[#0a1a32] to-[#0c1f3c] md:py-14 sm:py-20 min-h-fit'>
+    <div name="home" className='w-full h-150vh md:min-h-fit py-12 bg-gradient-to-b from-[#0a1a32] to-[#0c1f3c] md:py-14 sm:py-16 min-h-fit'>
         {/* container */}
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-screen px-4 md:flex-row'>
           <div className='flex flex-col justify-center h-full'>

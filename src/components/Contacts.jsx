@@ -9,10 +9,10 @@ const Contacts = () => {
         </div>
       </div>
        <div className='flex justify-center items-center'>
-        <form method='POST' action="https://getform.io/f/ab54af18-74b5-4476-b2cc-3a71e6bc6b8a" className='flex flex-col w-full md:w-1/2'>
+        <form method='POST' action="https://getform.io/f/ab54af18-74b5-4476-b2cc-3a71e6bc6b8a" className='flex flex-col w-full md:w-1/2 text-black'>
               <input className='bg-white p-2 rounded-lg' type="text" placeholder='Name' name='name' required/>
               <input className='my-4 p-2 bg-white rounded-lg' type="email" placeholder='Email' name='email' required/>
-              <textarea className='bg-white p-2 rounded-xl' name="message" rows="10" placeholder='Message'></textarea>
+              <textarea className='bg-white text-black p-2 rounded-xl resize-none' name="message" rows="12" placeholder='Message' required></textarea>
               <button className='text-white border-2 hover:bg-sky-700 hover:border-sky-800 px-4 py-3 mt-4 mb-2 mx-auto flex items-center rounded-2xl'>Send Message</button>
           </form>
        </div>
