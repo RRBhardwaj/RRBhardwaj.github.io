@@ -1,0 +1,12 @@
+.loading-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #0f2648;
+    height: 100vh;
+  }
+  
+
+  

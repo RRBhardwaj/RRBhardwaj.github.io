@@ -1,5 +1,4 @@
 import React from 'react';
-// import { data } from "../data/data.js";
 import Indiwebmall from "../assests/Indiweb_Mall.png";
 import Mytheresa from "../assests/Mytheresa_Attic.png";
 import IndianExpress from "../assests/Indian_Express.png";
@@ -33,7 +32,7 @@ const Projects = () => {
         src:reactImage,
         style: "shadow-blue-400"
     }
-]
+  ]
 const techi = [
   {
       id:1,
@@ -60,7 +59,7 @@ const techi = [
     src:chakra,
     style: "shadow-teal-300"
   }
-]
+  ]
 const tech = [
   {
       id:1,
@@ -77,7 +76,7 @@ const tech = [
       src:js,
       style: "shadow-yellow-500"
   }
-]
+  ]
 const techold = [
   {
       id:1,
@@ -99,17 +98,18 @@ const techold = [
     src:bootstrap,
     style: "shadow-purple-400"
 }
-]
+  ]
+  
 return (
     <div name='projects' className='w-full h-150vh  text-white bg-gradient-to-b from-[#0f2648] to-[#112a4f] py-14'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</p>
-          <p className='py-4'>Check out some of my recent projects</p>
+          <p className='py-4 text-xl'>Check out some of my recent projects</p>
         </div>
           <div className="grid grid-cols-1 gap-8 px-2 py-6 sm:px-0">
             <div className='shadow-gray-600 rounded-lg'>
-              <img src={Indiwebmall} alt="Project" className='rounded-md duration-200 hover:scale-105'/>
+              <img src={Indiwebmall} alt="Project" className='rounded-md'/>
               <p className='py-2 text-green-300 pt-4 text-center'>IndiWebmall is ecommerce website where we can buy different categories of products and also we can buy coupons to shop other products and gift them to others.</p>
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-4 px-4 sm:px-4 gap-4'>
               {
@@ -126,7 +126,7 @@ return (
               </div>
             </div>
             <div className='shadow-gray-600 rounded-lg pb-3'>
-              <img src={Mytheresa} alt="Project" className='rounded-md duration-200 hover:scale-105'/>
+              <img src={Mytheresa} alt="Project" className='rounded-md'/>
               <p className='py-2 text-green-300 pt-4 text-center'>It is an E-commerce luxury fashion company which offers different kind of products for men, women and children.</p>
               <div className='w-full grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 text-center py-4 px-10 gap-4'>
               {
@@ -143,7 +143,7 @@ return (
               </div>
             </div>
             <div className='shadow-gray-600 rounded-lg'>
-              <img src={IndianExpress} alt="Project" className='rounded-md duration-200 hover:scale-105'/>
+              <img src={IndianExpress} alt="Project" className='rounded-md'/>
               <p className='py-2 text-green-300 pt-4 text-center'>It is a News website where you can read daily news about technology, entertainment and many more.</p>
               <div className='w-full grid grid-cols-3 text-center py-4 px-4 gap-4'>
               {
@@ -160,7 +160,7 @@ return (
               </div>
             </div>
             <div className='shadow-gray-600 rounded-lg'>
-              <img src={bluefly} alt="Project" className='rounded-md duration-200 hover:scale-105'/>
+              <img src={bluefly} alt="Project" className='rounded-md'/>
               <p className='py-2 text-green-300 pt-4 text-center'>It is an E-commerce website which offers online marketplace of designer brands and fashion trends. The Company offers apparel, shoes, and accessories. It also offers watches jewelry and beauty products.</p>
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-4 px-4 sm:px-4 gap-4'>
               {

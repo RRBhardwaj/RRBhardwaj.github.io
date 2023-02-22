@@ -7,6 +7,13 @@ const Navbar = () => {
     const handleClick = () => {
         setNav(!nav)
     }
+    const handleResume = () => {
+        window.open('https://drive.google.com/file/d/1YMvMriZc_m7JEJlgowI7bQgbKZWYEDL7/view?usp=share_link', '_blank');
+        const link = document.createElement('a');
+        link.download = 'Rishi_Bhardwaj_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+      }
     const links = [
         {
             id:1,
@@ -44,7 +51,9 @@ const Navbar = () => {
                     </li>
                 ))
             }
-            {/* <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'><BsFillMoonStarsFill/></li> */}
+            <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>
+                <a href='Rishi_Bhardwaj_Resume.pdf' target="_blank" download={true} rel="noreferrer" onClick={handleResume}>Resume</a>
+            </li>
         </ul>
         
         {/* hamburger */}
