@@ -5,7 +5,7 @@ import HeroImage  from "../assests/heroImage.png";
 
 const Home = () => {
   const handleClick = () => {
-    window.open('https://drive.google.com/file/d/1YMvMriZc_m7JEJlgowI7bQgbKZWYEDL7/view?usp=share_link', '_blank');
+    window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
     const link = document.createElement('a');
     link.download = 'Rishi_Bhardwaj_Resume.pdf';
     document.body.appendChild(link);

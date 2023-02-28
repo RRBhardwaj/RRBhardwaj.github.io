@@ -12,6 +12,7 @@ const Github = () => {
         <div className='flex flex-col mx-auto max-w-[600px] justify-center items-start'>
             <img className='text-gray-600 mr-6 my-5 w-full rounded-sm' src="https://github-readme-streak-stats.herokuapp.com/?user=rrbhardwaj&theme=light&background=FFFFFF" alt="github"/> 
             <img className='text-gray-600 mr-6 my-5 w-full rounded-sm' src="https://github-readme-stats.vercel.app/api/top-langs/?username=RRBhardwaj&theme=light&hide_border=false&include_all_commits=false&count_private=true&layout=compact" alt="Language"/>  
+            <img className='text-gray-600 mr-6 my-5 w-full rounded-sm' src="https://github-readme-stats.vercel.app/api?username=RRBhardwaj&theme=light&hide_border=false&include_all_commits=true&count_private=true" alt="Language"/>  
         </div> 
         </div>
     </div>

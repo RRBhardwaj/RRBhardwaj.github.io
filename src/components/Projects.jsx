@@ -110,7 +110,8 @@ return (
           <div className="grid grid-cols-1 gap-8 px-2 py-6 sm:px-0">
             <div className='shadow-gray-600 rounded-lg'>
               <img src={Indiwebmall} alt="Project" className='rounded-md'/>
-              <p className='py-2 text-green-300 pt-4 text-center'>IndiWebmall is ecommerce website where we can buy different categories of products and also we can buy coupons to shop other products and gift them to others.</p>
+              <p className='flex justify-center text-2xl text-green-300 pt-3'>Indiwebmall.com</p>
+              <p className='py-2 text-teal-300 pt-4 text-center text-xl'>IndiWebmall is a comprehensive ecommerce website that offers a wide range of products across various brands, including nike, puma, central, and more. In addition to selling products, the website also provides users with the option to purchase coupons that can be used to shop for other products or gifted to friends and family.</p>
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-4 px-4 sm:px-4 gap-4'>
               {
                 techs?.map(({id,src,style}) => (
@@ -127,7 +128,8 @@ return (
             </div>
             <div className='shadow-gray-600 rounded-lg pb-3'>
               <img src={Mytheresa} alt="Project" className='rounded-md'/>
-              <p className='py-2 text-green-300 pt-4 text-center'>It is an E-commerce luxury fashion company which offers different kind of products for men, women and children.</p>
+              <p className='flex justify-center text-2xl text-green-300 pt-3'>Mytheresa-Attic.com</p>
+              <p className='py-2 text-teal-300 pt-4 text-center text-xl'>Mytheresa-Attic is a renowned luxury fashion E-commerce company that offers an extensive collection of high-end clothing, shoes, accessories, and beauty products for men, women, and children. The company is known for curating a selection of exclusive and sought-after designer brands, including but not limited to Balenciaga, Gucci, Saint Laurent, and Prada.</p>
               <div className='w-full grid grid-cols-2 md:grid-cols-5 sm:grid-cols-3 text-center py-4 px-10 gap-4'>
               {
                   techi?.map(({id,src,style}) => (
@@ -144,7 +146,8 @@ return (
             </div>
             <div className='shadow-gray-600 rounded-lg'>
               <img src={IndianExpress} alt="Project" className='rounded-md'/>
-              <p className='py-2 text-green-300 pt-4 text-center'>It is a News website where you can read daily news about technology, entertainment and many more.</p>
+              <p className='flex justify-center text-2xl text-green-300 pt-3'>IndianExpress.com</p>
+              <p className='py-2 text-teal-300 pt-4 text-center text-xl'>IndianExpress is a leading news website that provides comprehensive coverage of the latest news and events from India and around the world. The website offers a wide range of categories, including technology, entertainment, politics, sports, business, international news, and more. IndianExpress is a reliable and trustworthy source of information.</p>
               <div className='w-full grid grid-cols-3 text-center py-4 px-4 gap-4'>
               {
                   tech.map(({id,src,style}) => (
@@ -161,7 +164,8 @@ return (
             </div>
             <div className='shadow-gray-600 rounded-lg'>
               <img src={bluefly} alt="Project" className='rounded-md'/>
-              <p className='py-2 text-green-300 pt-4 text-center'>It is an E-commerce website which offers online marketplace of designer brands and fashion trends. The Company offers apparel, shoes, and accessories. It also offers watches jewelry and beauty products.</p>
+              <p className='flex justify-center text-2xl text-green-300 pt-3'>Bluefly.com</p>
+              <p className='py-2 text-teal-300 pt-4 text-center text-xl'>It is an E-commerce website that offers an online marketplace of designer brands and fashion trends. The Company offers apparel, shoes, and accessories. It also provides watches jewelry and beauty products.</p>
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-4 px-4 sm:px-4 gap-4'>
               {
                 techold?.map(({id,src,style}) => (

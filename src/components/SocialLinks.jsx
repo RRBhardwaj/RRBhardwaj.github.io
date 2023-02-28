@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from "react-icons/bs";
 
 const SocialLinks = () => {
     const handleClick = () => {
-        window.open('https://drive.google.com/file/d/1YMvMriZc_m7JEJlgowI7bQgbKZWYEDL7/view?usp=share_link', '_blank');
+        window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
         const link = document.createElement('a');
         link.download = 'Rishi_Bhardwaj_Resume.pdf';
         document.body.appendChild(link);
@@ -13,12 +13,15 @@ const SocialLinks = () => {
     }
     const handleMail = () => {
         window.location.href = 'mailto:rishirajbhardwaj20@example.com';
-      };
+    };
+    // const redirectToLinkedIn = () => {
+    //     window.location.href = 'https://www.linkedin.com/in/rishi-raj-bhardwaj';
+    // };
   return (
     <div className='hidden xl:flex fixed flex-col top-[38%] left-0'>
             <ul>
                 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
-                    <a className='flex justify-between items-center w-full text-gray-200' href="https://linkedin.com" target="_blank" rel="noreferrer">Linkedin<FaLinkedin size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-200' href="https://www.linkedin.com/in/rishi-raj-bhardwaj" target="_blank" rel="noreferrer">Linkedin<FaLinkedin size={25}/></a>
                 </li>
             </ul>
             <ul>
