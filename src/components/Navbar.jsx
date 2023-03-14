@@ -18,12 +18,12 @@ const Navbar = () => {
 
 
     const mobileResume = () => {
-    window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
-    const link = document.createElement('a');
-    link.download = 'Rishi_Bhardwaj_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    setNav(!nav)
+        window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
+        const link = document.createElement('a');
+        link.download = 'Rishi_Bhardwaj_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        setNav(!nav)
     }
     const links = [
         {
@@ -87,7 +87,7 @@ const Navbar = () => {
                 ))
             }
             <li className='"px-4 py-6 text-4xl capitalize cursor-pointer'>
-                <Link onClick={mobileResume} smooth duration={500} className={"nav-link resume"}>Resume</Link>
+                <Link onClick={mobileResume} smooth duration={500} className="nav-link resume">Resume</Link>
             </li>
         </ul>   
     </div>
