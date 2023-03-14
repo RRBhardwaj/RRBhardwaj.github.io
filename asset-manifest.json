@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfebf63b.css",
-    "main.js": "/static/js/main.ccfd9bd7.js",
+    "main.css": "/static/css/main.a08cfed4.css",
+    "main.js": "/static/js/main.d9b873bc.js",
     "static/media/Mytheresa_Attic.png": "/static/media/Mytheresa_Attic.18da938b9fac58afc3cb.png",
     "static/media/bluefly.png": "/static/media/bluefly.9b2d6fbb152f94343ba4.png",
     "static/media/Indiweb_Mall.png": "/static/media/Indiweb_Mall.5a97146f11bd028c3d22.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.cfebf63b.css.map": "/static/css/main.cfebf63b.css.map",
-    "main.ccfd9bd7.js.map": "/static/js/main.ccfd9bd7.js.map"
+    "main.a08cfed4.css.map": "/static/css/main.a08cfed4.css.map",
+    "main.d9b873bc.js.map": "/static/js/main.d9b873bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfebf63b.css",
-    "static/js/main.ccfd9bd7.js"
+    "static/css/main.a08cfed4.css",
+    "static/js/main.d9b873bc.js"
   ]
 }
