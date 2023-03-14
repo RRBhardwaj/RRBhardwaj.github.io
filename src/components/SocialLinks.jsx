@@ -21,12 +21,12 @@ const SocialLinks = () => {
     <div className='hidden xl:flex fixed flex-col top-[38%] left-0'>
             <ul>
                 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
-                    <a className='flex justify-between items-center w-full text-gray-200' href="https://www.linkedin.com/in/rishi-raj-bhardwaj" target="_blank" rel="noreferrer">Linkedin<FaLinkedin size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-200' href="https://www.linkedin.com/in/rishi-raj-bhardwaj" target="_blank" rel="noreferrer" id="contact-linkedin">Linkedin<FaLinkedin size={25}/></a>
                 </li>
             </ul>
             <ul>
                 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#171616]'>
-                    <a className='flex justify-between items-center w-full text-gray-200' href="https://github.com/RRBhardwaj" target="_blank" rel="noreferrer">Github<FaGithub size={25}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-200' href="https://github.com/RRBhardwaj" target="_blank" rel="noreferrer" id="contact-github">Github<FaGithub size={25}/></a>
                 </li>
             </ul>
             <ul>

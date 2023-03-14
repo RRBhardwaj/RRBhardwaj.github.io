@@ -15,30 +15,45 @@ const Navbar = () => {
         document.body.appendChild(link);
         link.click();
       }
+
+
+    const mobileResume = () => {
+    window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
+    const link = document.createElement('a');
+    link.download = 'Rishi_Bhardwaj_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    setNav(!nav)
+    }
     const links = [
         {
             id:1,
-            link:"home"
+            link:"home",
+            classes:"nav-link home"
         },
         {
             id:2,
-            link:"about"
+            link:"about",
+            classes:"nav-link about"
         },
         {
             id:3,
-            link:"skills"
+            link:"skills",
+            classes:"nav-link skills"
         },
         {
             id:4,
-            link:"projects"
+            link:"projects",
+            classes:"nav-link projects"
         },
         {
             id:5,
-            link:"contact"
+            link:"contact",
+            classes:"nav-link contact"
         }
     ] 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 py-4 text-gray-300 bg-gradient-to-b from-[#000000] to-[#142949] z-100'>
+    <div id="nav-menu" className='fixed w-full h-[80px] flex justify-between items-center px-4 py-4 text-gray-300 bg-gradient-to-b from-[#000000] to-[#142949] z-100'>
         <div>
             <h4 className='text-4xl ml-2 font-signature cursor-none'>RRBhardwaj</h4>
         </div>
@@ -46,14 +61,14 @@ const Navbar = () => {
         {/* menu */}
         <ul className="hidden md:flex">
             {
-                links.map(({id,link})=>(
+                links.map(({id,link,classes})=>(
                     <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>
-                        <Link to={link} smooth duration={500}>{link}</Link>
+                        <Link to={link} smooth duration={500} className={classes}>{link}</Link>
                     </li>
                 ))
             }
-            <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>
-                <a href='Rishi_Bhardwaj_Resume.pdf' target="_blank" download={true} rel="noreferrer" onClick={handleResume}>Resume</a>
+            <li className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200' id="resume-button-1" >
+                <a href='Rishi_Bhardwaj_Resume.pdf' target="_blank" download={true} rel="noreferrer" onClick={handleResume} className={"nav-link resume"} id="resume-link-1">Resume</a>
             </li>
         </ul>
         
@@ -71,6 +86,9 @@ const Navbar = () => {
                     </li>
                 ))
             }
+            <li className='"px-4 py-6 text-4xl capitalize cursor-pointer'>
+                <Link onClick={mobileResume} smooth duration={500} className={"nav-link resume"}>Resume</Link>
+            </li>
         </ul>   
     </div>
   )
