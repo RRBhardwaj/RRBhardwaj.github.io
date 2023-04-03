@@ -18,7 +18,7 @@ const About = () => {
 
                 As a team player, I have a proven track record of effective collaboration with colleagues, and I am passionate about problem-solving and generating effective solutions. With my combination of technical and interpersonal skills, I am confident in my ability to deliver exceptional results as a Full Stack Web Developer.
             </p>
-        </div> 
+        </div>  
     </div>
   )
 }
