@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a08cfed4.css",
-    "main.js": "/static/js/main.9f970d42.js",
+    "main.css": "/static/css/main.54649049.css",
+    "main.js": "/static/js/main.8fe8ed3c.js",
     "static/media/Mytheresa_Attic.png": "/static/media/Mytheresa_Attic.18da938b9fac58afc3cb.png",
-    "static/media/bluefly.png": "/static/media/bluefly.9b2d6fbb152f94343ba4.png",
+    "static/media/Lenskart.png": "/static/media/Lenskart.99a3fccef98c73f8a79a.png",
+    "static/media/StyleZone.png": "/static/media/StyleZone.7d175aa80e8c6a85a272.png",
     "static/media/Indiweb_Mall.png": "/static/media/Indiweb_Mall.5a97146f11bd028c3d22.png",
-    "static/media/Indian_Express.png": "/static/media/Indian_Express.3264c10f6408275be5b0.png",
     "static/media/heroku.png": "/static/media/heroku.e6097e19e6f076be3f49.png",
     "static/media/heroImage.png": "/static/media/heroImage.939b4fcab95a2aec1933.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.a08cfed4.css.map": "/static/css/main.a08cfed4.css.map",
-    "main.9f970d42.js.map": "/static/js/main.9f970d42.js.map"
+    "main.54649049.css.map": "/static/css/main.54649049.css.map",
+    "main.8fe8ed3c.js.map": "/static/js/main.8fe8ed3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a08cfed4.css",
-    "static/js/main.9f970d42.js"
+    "static/css/main.54649049.css",
+    "static/js/main.8fe8ed3c.js"
   ]
 }
