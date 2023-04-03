@@ -1,5 +1,4 @@
 import React from 'react'; 
-
 import html from "../assests/html.png";
 import css from "../assests/css.png";
 import js from "../assests/javascript.png";
@@ -63,7 +62,7 @@ const Skills = () => {
         {
             id:8,
             src:chakra,
-            title:"Chara-UI",
+            title:"Chakra-UI",
             style: "shadow-teal-300"
         },
         {
@@ -121,9 +120,9 @@ const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {
                     techs.map(({id,src,title,style}) => (
-                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} skills-card`}>
-                            <img src={src} alt="" className='w-20 mx-auto skills-card-img'/>
-                            <p className='mt-4 skills-card-name'>{title}</p>
+                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                            <img src={src} alt="" className='w-20 mx-auto'/>
+                            <p className='mt-4'>{title}</p>
                         </div>
                     ))
                 }
@@ -136,9 +135,9 @@ const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {
                     tech.map(({id,src,title,style}) => (
-                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img src={src} alt="" className='w-20 mx-auto'/>
-                            <p className='mt-4'>{title}</p>
+                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} skills-card`}>
+                            <img src={src} alt="" className='w-20 mx-auto skills-card-img'/>
+                            <p className='mt-4 skills-card-name'>{title}</p>
                         </div>
                     ))
                 }

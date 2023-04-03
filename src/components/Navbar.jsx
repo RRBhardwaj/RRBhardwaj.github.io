@@ -16,7 +16,6 @@ const Navbar = () => {
         link.click();
       }
 
-
     const mobileResume = () => {
         window.open('https://drive.google.com/file/d/1jFPUwmPU2j21g5YDqNi74oJauCHcLfIE/view?usp=sharing', '_blank');
         const link = document.createElement('a');
