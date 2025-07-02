@@ -12,11 +12,11 @@ const About = () => {
             </p>
             <br/>
             <p className='text-xl leading-loose' id="user-detail-intro">
-                I possess a strong understanding of data structures and algorithms and am proficient in the MERN stack. With this skill set, I am eager to embark on a journey toward building outstanding products as a Full Stack Web Developer.<br></br><br></br>
+                I possess a solid foundation in data structures and algorithms and hands-on experience with the MERN stack. With this skill set, I am driven to create impactful, scalable products as a Full Stack Web Developer.<br></br><br></br>
 
-                My expertise includes HTML, CSS, JavaScript, React, Redux, Express, Node.js, and I have experience leveraging libraries such as Chakra UI and Bootstrap to develop user interfaces that enhance the user experience. Additionally, I am adept in database management using MongoDB.<br></br><br></br>
+                My expertise includes HTML, CSS, JavaScript, React, Redux, Angular, Express, and Node.js. I have built responsive interfaces using libraries like Chakra UI and Bootstrap, focusing on performance and user experience. I am also proficient in working with databases like MongoDB and PostgreSQL.<br></br><br></br>
 
-                As a team player, I have a proven track record of effective collaboration with colleagues, and I am passionate about problem-solving and generating effective solutions. With my combination of technical and interpersonal skills, I am confident in my ability to deliver exceptional results as a Full Stack Web Developer.
+                As a team player, I have independently delivered full-scale applications while collaborating across teams. Passionate about clean architecture and practical problem-solving, I strive to deliver high-quality outcomes as a Full Stack Web Developer.
             </p>
         </div>  
     </div>
