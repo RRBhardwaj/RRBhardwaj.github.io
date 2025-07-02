@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.80a809b6.css",
-    "main.js": "/static/js/main.20a92396.js",
+    "main.js": "/static/js/main.6f0b1ce6.js",
     "static/media/Mytheresa_Attic.png": "/static/media/Mytheresa_Attic.18da938b9fac58afc3cb.png",
     "static/media/Lenskart.png": "/static/media/Lenskart.99a3fccef98c73f8a79a.png",
     "static/media/StyleZone.png": "/static/media/StyleZone.7d175aa80e8c6a85a272.png",
     "static/media/Indiweb_Mall.png": "/static/media/Indiweb_Mall.5a97146f11bd028c3d22.png",
+    "static/media/heroImage.png": "/static/media/heroImage.22bff50f5b5bee8c6013.png",
     "static/media/heroku.png": "/static/media/heroku.e6097e19e6f076be3f49.png",
-    "static/media/heroImage.png": "/static/media/heroImage.939b4fcab95a2aec1933.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.80a809b6.css.map": "/static/css/main.80a809b6.css.map",
-    "main.20a92396.js.map": "/static/js/main.20a92396.js.map"
+    "main.6f0b1ce6.js.map": "/static/js/main.6f0b1ce6.js.map"
   },
   "entrypoints": [
     "static/css/main.80a809b6.css",
-    "static/js/main.20a92396.js"
+    "static/js/main.6f0b1ce6.js"
   ]
 }
